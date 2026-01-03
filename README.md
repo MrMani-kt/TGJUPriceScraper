@@ -1,6 +1,21 @@
-# 📈 TGJU Price Scraper (Python) A powerful and simple Python script to fetch real-time financial data (Gold, Coins, Currency, and Crypto) from the **TGJU** website and export it into a clean Excel file. > **Note:** This project specifically uses [TGJU (شبکه اطلاع‌رسانی طلا، سکه و ارز)](https://www.tgju.org/) as the primary data source for all price extractions. ## 🚀 Features - **Real-time Data:** Fetches the latest prices for Gold 18k, Dollar, Coins, and Bitcoin. - **Automated Export:** Automatically saves and organizes data into an .xlsx (Excel) file. - **Smart Parsing:** Uses BeautifulSoup and CSS selectors for precise data extraction. - **Timestamping:** Every record is saved with a precise date and time of execution. ## 🛠 Prerequisites This script requires a few external libraries. You can install them using pip:
-bash
+# 📈 TGJU Price Scraper (Python)
+
+A powerful and simple Python script to fetch real-time financial data (Gold, Coins, Currency, and Crypto) from the **TGJU** website and export it into a clean Excel file.
+
+> **Note:** This project specifically uses [TGJU (شبکه اطلاع‌رسانی طلا، سکه و ارز)](https://www.tgju.org/) as the primary data source for all price extractions.
+
+## 🚀 Features
+- **Real-time Data:** Fetches the latest prices for Gold 18k, Dollar, Coins, and Bitcoin.
+- **Automated Export:** Automatically saves and organizes data into an `.xlsx` (Excel) file.
+- **Smart Parsing:** Uses `BeautifulSoup` and CSS selectors for precise data extraction.
+- **Timestamping:** Every record is saved with a precise date and time of execution.
+
+## 🛠 Prerequisites
+This script requires a few external libraries. You can install them using `pip`:
+
+```bash
 pip install requests beautifulsoup4 lxml openpyxl
+
 Libraries used:
 
 requests: To send HTTP requests and fetch the website's HTML.
